@@ -1,14 +1,14 @@
 ![alt text](https://github.com/adovgeldiyev/topic-modeling/blob/main/images/sentiment.png?raw=true)
 ## Sentiment Analysis with Supervised learning, topic modeling with K-means and LDA
 ### Contents:</br>
-#### 1. Data Preprocessing Phase</br>
+#### 1. Data Preprocessing Phase
 Cleaning with removing columns, adding new ones to get length of tweet</br>
 Case Conversion: All words are converted either into lower case</br>
 Stop words removal</br>
 Punctuation Removal</br>
 Spelling Correction</br>
 
-#### 2. Sentiment Analysis</br>
+#### 2. Sentiment Analysis
 calculate polarity level of tweets</br>
 create word cloud</br>
 calculate term frequency and inverse document frequency</br>

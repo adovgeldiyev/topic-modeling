@@ -1,0 +1,59 @@
+twitter scraping
+
+import pandas as pd
+import numpy as np
+import csv
+import snscrape.modules.twitter as sntwitter
+import datetime as dt
+import time
+
+Sentiment analysis and Topic modeling
+import matplotlib.pyplot as plt
+import seaborn as sns
+from nltk.corpus import stopwords
+import nltk
+from nltk.stem import WordNetLemmatizer 
+import re
+#word count
+from collections import Counter
+
+#word clouds
+import heapq
+from wordcloud import WordCloud, STOPWORDS,ImageColorGenerator
+from PIL import Image
+import collections
+import matplotlib.cm as cm
+from matplotlib import rcParams
+from tqdm import tqdm
+
+#sentiment analysis
+from textblob import TextBlob
+from sklearn.feature_extraction.text import TfidfTransformer
+# Transforming the two columns into sparse matrices
+from scipy.sparse import coo_matrix, hstack
+from sklearn.model_selection import train_test_split
+from sklearn import metrics
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import LinearSVC
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import GridSearchCV
+import xgboost as xgb
+
+from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.preprocessing import normalize
+from sklearn.metrics import pairwise_distances
+# Gaussian Mixture Model 
+from sklearn.mixture import GaussianMixture as gm
+
+from nltk.stem.wordnet import WordNetLemmatizer
+from nltk.tokenize import RegexpTokenizer
+
+from gensim.models import Phrases
+from gensim.corpora import Dictionary
+from gensim.models import LdaModel
+import pyLDAvis.gensim
